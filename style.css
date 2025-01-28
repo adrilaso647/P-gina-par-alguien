@@ -1,3 +1,4 @@
+@media (max-width: 768px){
 *{
     box-sizing: border-box;
 }
@@ -313,3 +314,4 @@ h2{
   .stroke:nth-child(7) {
     animation-delay: 0s;
   }
+}
