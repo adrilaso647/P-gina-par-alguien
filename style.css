@@ -34,8 +34,7 @@ h2{
         margin-left: 10%;
         margin-top: 50px;
         position: relative;
-        width: 90%; /* Adaptable */
-        max-width: 250px;
+        width: 250px;
         transition:all .3s ease;
     }
     article img:first-child{
@@ -46,8 +45,7 @@ h2{
     }
     article img:last-child{
         position: absolute;
-        width: 90%; /* Adaptable */
-        max-width: 200px;
+        width: 200px;
         bottom:-3;
         left:0;
         right:0;
@@ -165,8 +163,7 @@ h2{
   .track-art {
     margin: 25px;
     height: 200px;
-    width: 90%; /* Adaptable */
-    max-width: 200px;
+    width: 200px;
     border: 2px solid #fff;
     background-size: cover;
     background-position: center;
@@ -222,8 +219,7 @@ h2{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 90%; /* Adaptable */
-    max-width: 15px;
+    width: 15px;
     height: 15px;
     background: #fff;
     border: 2px solid #3774ff;
@@ -281,8 +277,7 @@ h2{
   .loader .stroke {
     background: #f1f1f1;
     height: 100%;
-    width: 90%; /* Adaptable */
-    max-width: 10px;
+    width: 10px;
     border-radius: 50px;
     margin: 0 5px;
     animation: animate 1.4s linear infinite;
