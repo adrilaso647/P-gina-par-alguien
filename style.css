@@ -313,6 +313,92 @@ h2{
   .stroke:nth-child(7) {
     animation-delay: 0s;
   }
-  .stroke:nth-child(7) {
-    animation-delay: 0s;
+  .cartas-enlaces{
+    transition: 0.5s;
+    border-radius: 15px;
+    border:2px solid white;
+    backdrop-filter: blur(20px);
+  }
+  .carta{
+    color: white;
+  }
+  .cartas-enlaces:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px 2px white;
+  }
+  .carta1, .carta2,.carta3,.carta4{
+    margin-top: 50px;
+  }
+  .primera-carta{
+    margin-top:50px;
+    color:white;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 45px; 
+    transition: all 0.8s; 
+    background-color: rgba(246, 249, 58, 0.1);
+    border: 1px solid yellow;
+    backdrop-filter: blur(20px);
+  }
+  .segunda-carta{
+    margin-top:50px;
+    color:white;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 45px; 
+    transition: all 0.8s; 
+    background-color: rgba(249, 58, 58, 0.1);
+    border: 1px solid red;
+    backdrop-filter: blur(20px);
+  }
+  .tercera-carta{
+    margin-top:50px;
+    color:white;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 45px; 
+    transition: all 0.8s; 
+    background-color: rgba(77, 58, 249, 0.1);
+    border: 1px solid blue;
+    backdrop-filter: blur(20px);
+  }
+  .cuarta-carta{
+    margin-top:50px;
+    color:white;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 45px; 
+    transition: all 0.8s; 
+    background-color: rgba(58, 249, 99, 0.1);
+    border: 1px solid rgb(4, 255, 0);
+    backdrop-filter: blur(20px);
+  }
+  a{
+    transition: 0.3s;
+    color:white;
+    text-decoration: none;
+  }
+  a:hover{
+    transition: 0.3s;
+    text-decoration: underline;
   }
