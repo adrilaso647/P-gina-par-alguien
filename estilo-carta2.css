@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    align-items: center;
+    scrollbar-color: #ff0000 #8400ff;
+}
+body{
+    background-image: url("fondo2.jpg");
+}
+h1{
+    margin-top: 90px;
+    color:white;
+    text-align: center;
+}
+.principal{
+    color:white;
+    margin-left:150px;
+    margin-bottom: 30px;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem; 
+    transition: all 0.8s; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+}
+.principal:hover{
+    box-shadow: 0px 0px 30px 2px rgb(255, 0, 0);
+}
+p{
+    font-size: 1.4em;
+}
+.carta{
+    color:white;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem; 
+    transition: all 0.8s; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+}
+.carta:hover{
+    box-shadow: 0px 0px 30px 2px rgb(255, 0, 0);
+}
